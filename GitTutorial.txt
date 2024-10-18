@@ -1,9 +1,23 @@
 GitTutorial
 
+--- git settings
 Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
 Set your email address: git config --global user.email "MY_NAME@example.com"
 
-Список корисних команд для роботи з git
+--- create new git repository
+1. create/open a project folder 
+2. create/edit .gitignore in the project folder
+3. --> open git bush here
+4. git init . //initialize new git repository in the current folder
+
+--- assign git repository with GitHub
+5. Create new repository on GitHub
+6. git remote add origine {GitHub_link} //link local repository to GitHub repository
+7. git add {file} //add files to staging area
+8. git commit -u "Commit text here" //create commit
+9. git push -u origine master //upload files from staging area to GitHub repository 
+
+--- Список корисних команд для роботи з git
 1. git clone - копіює репозиторій (папку з файлами) на компютер
 2. git branch "branchName" - створює гілку з назвою "branchName"
 3. git checkout "branchName" - переходить на гілку з назвою "branchName"
